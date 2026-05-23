@@ -1,0 +1,14 @@
+name: BrazilBow
+version: 1.0
+main: com.brazilbow.BrazilBowPlugin
+api-version: 1.21
+description: A special bow with Brazil flag colors and particle trails
+commands:
+  givebrazilbow:
+    description: Gives you a Brazil flag bow (admin only)
+    usage: /givebrazilbow
+    permission: brazilbow.admin
+permissions:
+  brazilbow.admin:
+    description: Allows admin to use /givebrazilbow command
+    default: op
